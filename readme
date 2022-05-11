@@ -1,0 +1,11 @@
+El objetivo del algoritmo, es detectar las figuras geométricas que existen en una imagen. Por lo tanto,  la estructura que se va a seguir es la siguiente:
+1. Leer la imagen de entrada y transformarla a escala de grises
+2. Obtener una imagen binarizada
+3. Encontrar los contornos
+4. Uso de la función cv2.approxPolyDP para determinar:
+ Triángulo
+ Cuadrado y rectángulo
+ Pentágono
+ Hexágono
+ Círculo
+ Polígono de n lados
